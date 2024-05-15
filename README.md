@@ -2,18 +2,18 @@
 
 ## Create Virtual Machine - Ubuntu Server 22.04 LTS 
 ### Basics
-1. Set resource group
-2. Virtual machine name
-3. Select region
-4. Avaibility options: `Avaibility zone`
-5. Avaibility zone: choose
-6. Size: adjust based on the workloads you will have
-7. Authentication type: Password
+1. Set **resource group**
+2. Type **Virtual machine name**
+3. Select **Region**
+4. **Avaibility options**: `Avaibility zone`
+5. **Avaibility zone**: choose
+6. **Size**: adjust based on the workloads you will have
+7. **Authentication type**: `Password`
 
 ### Networking
 1. In **Virtual network** click `Create new` and type the **Name** of the virtual network
-2. NIC network security group: `Advance`
-3. Configure network security group: click `Create new`
+2. **NIC network security group**: `Advance`
+3. **Configure network security group**: click `Create new`
 4. Then click `+ Add an inbound rule`
 5. Change the **Destination port ranges** from `8080` to `8888`
 6. In **Protocol** Select `TCP`
