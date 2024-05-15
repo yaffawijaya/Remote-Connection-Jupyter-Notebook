@@ -98,10 +98,18 @@ ssh -L 8080:localhost:8888 {username}@{public_ip}
 ```
 input the password
 
-### Check this syntax in your ipynb file
+### Run this command in VMs ssh
 ```bash
-jupyter notebook --no-browser
+jupyter notebook --no-browser --port=8888
 ```
+
+### Then run this command on your local machine (terminal/cmd/powershell)
+```bash
+ssh -N -f -L localhost:8889:localhost:8888 {username}@{public_ip}
+```
+
+### Then access the localhost or ip with token
+then paste the url in your browser, and change the domain from `localhost:8888` to `localhost:8889`, then click `Enter`
 
 ```python
 # Check the number of CPUs
