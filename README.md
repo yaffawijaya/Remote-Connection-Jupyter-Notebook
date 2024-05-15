@@ -68,7 +68,7 @@ conda activate tensorflow
 ## Set up source code and datasets
 ### Clone source code
 ```bash
-git clone https://github.com/Dimitri2801/Cataract-Detection-MobileNetV2.git
+git clone `repository_url`
 ```
 
 ### Download dataset using `gdown`
