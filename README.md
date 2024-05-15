@@ -40,8 +40,9 @@ sha256sum Anaconda3-2024.02-1-Linux-x86_64.sh
 bash Anaconda3-2024.02-1-Linux-x86_64.sh
 ```
 - `Enter`
+- To skip the user agreement, `CTRL + C`
 - `yes`
-- `enter`
+- `Enter`
 - `yes`
 
 ```bash
