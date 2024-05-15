@@ -74,6 +74,7 @@ ssh -L 8080:localhost:8888 {username}@{public_ip}
 ```
 input the password
 
+### Check this syntax in your ipynb file
 ```bash
 jupyter notebook --no-browser
 ```
