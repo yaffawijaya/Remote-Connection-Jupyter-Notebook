@@ -67,6 +67,13 @@ export DRIVE="https://drive.google.com/uc?id="
 ```bash
 gdown ${DRIVE}drive_file_id
 ```
+#### Unzip
+```bash
+sudo apt-get install unzip
+```
+```bash
+unzip *.zip
+```
 
 ## Set up jupyter notebook
 ```bash
