@@ -93,7 +93,13 @@ sudo apt-get install unzip
 unzip *.zip
 ```
 
+## Quit VM
+```bash
+exit
+```
+
 ## Set up jupyter notebook
+### Access VM via inbound port network
 ```bash
 ssh -L 8080:localhost:8888 {username}@{public_ip}
 ```
@@ -104,7 +110,7 @@ input the password
 jupyter notebook --no-browser --port=8888
 ```
 
-### Then run this command on your local machine (terminal/cmd/powershell)
+### Then run this command on your local machine (new terminal/cmd/powershell)
 ```bash
 ssh -N -f -L localhost:8889:localhost:8888 {username}@{public_ip}
 ```
